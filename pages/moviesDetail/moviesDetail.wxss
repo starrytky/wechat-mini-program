@@ -1,0 +1,32 @@
+/* pages/moviesDetail/moviesDetail.wxss */
+.moviesDetailcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movieImg {
+  height: 700rpx;
+  width: 70%;
+  margin: 20rpx 0;
+}
+.movieName {
+  font-weight: bold;
+  font-size: 46rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+  text-align: center;
+}
+.movieContent {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  margin: 28rpx 0;
+  font-size: 32rpx;
+}
+.movieActor {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
